@@ -13,11 +13,9 @@ def using_pop(array)
 end
 
 def pop_with_args(array , num)
-  newArray = []
-  while num > 0
-     newArray << array.pop
-  end
-  return newArray
+     element1 = array.pop
+     element2 = array.pop
+  return [element1, element2]
 end
 
 def using_shift(array)
@@ -26,7 +24,7 @@ end
 
 def shift_with_args(array , num)
   while num > 0
-    return array.shift
+    array.shift
   end
 end
 
