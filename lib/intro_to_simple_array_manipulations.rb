@@ -51,3 +51,13 @@ def using_flatten(array)
   array.flatten
   return array
 end
+
+def using_delete(array, name)
+  array.delete(name)
+  return array
+end
+
+def using_delete_at(array , num)
+  array.delete_at(num)
+  return array
+end
