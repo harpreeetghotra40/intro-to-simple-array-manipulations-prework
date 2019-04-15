@@ -14,21 +14,18 @@ end
 
 def pop_with_args(array , num)
   while num > 0
-    array.pop
+    return array.pop
   end
-  return array
 end
 
 def using_shift(array)
-  array.shift
-  return array
+  return array.shift
 end
 
 def shift_with_args(array , num)
   while num > 0
-    array.shift
+    return array.shift
   end
-  return array
 end
 
 def using_concat(array1 , array2)
