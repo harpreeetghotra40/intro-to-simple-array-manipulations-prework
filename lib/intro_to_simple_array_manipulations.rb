@@ -46,3 +46,8 @@ def using_uniq(array)
   array.uniq
   return array
 end
+
+def using_flatten(array)
+  array.flatten
+  return array
+end
